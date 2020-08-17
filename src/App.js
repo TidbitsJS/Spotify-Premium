@@ -1,24 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import 'App.css'
+import { premiumFamily, prePaidFamily, 
+         premiumIndividual, premiumPrepaid,
+         premiumStudent, premiumDuo } from 'components/CardData'
+import Slideshow from 'components/Slider';
+import FreeContext from 'components/FreeContext';
+import Cards from 'components/Cards';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="header"><h1>Try Premium free for 1 month</h1></div>
+      <Slideshow />
+      <FreeContext />
+      <Cards cardData={premiumFamily} />
+      <Cards cardData={prePaidFamily} />
+      <Cards cardData={premiumIndividual} />
+      <Cards cardData={premiumPrepaid} />
+      <Cards cardData={premiumStudent} />
+      <Cards cardData={premiumDuo} />
     </div>
   );
 }

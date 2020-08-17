@@ -1,38 +1,226 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: rgb(12, 11, 11);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  text-align: center;
+  margin-top: 2rem;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.header h1 {
+  width: 700px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.sliderContainer {
+  width: 700px;
+  position: relative;
+  top: 30%;
+  left: 50%;
+  margin: 2rem 0rem;
+  border-radius: 10px;
+  transform: translate(-50%);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.each-fade img {
+  width: 100%;
+}
+
+.each-fade {
+  display: flex;
+  border-radius: 10px;
+}
+
+.each-fade img {
+  border-radius: 10px;
+}
+
+.each-slide span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}
+
+.free {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.free h5 {
+  font-size: 20px;
+  margin-top: 1rem;
+  margin-bottom: 0.7rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.free p {
+  font-size: 16px;
+  color: grey;
+  padding: 1rem;
+  text-align: center;
+  line-height: 25px;
+}
+
+.free span {
+  color: white;
+}
+
+.small-bar {
+  margin: 2rem 0rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.7rem;
+  border-radius: 15px;
+  width: 650px;
+  height: 50px;
+  background-color: grey;
+  font-size: 21px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.mainCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.uiCard {
+  width: 700px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem 2rem;
+  border-radius: 15px;
+  background: linear-gradient(to right, #8e0e00, #1f1c18);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.12), 1px 1px 2px rgba(0, 0, 0, 0.74);
+}
+
+.card-start {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.card-head {
+  font-size: 21px;
+  color: #fff;
+}
+
+.card-plan .top {
+  text-transform: capitalize;
+  font-size: 25px;
+  text-align: right;
+  margin-bottom: 0.2rem;
+  color: #fff;
+}
+
+.card-terms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card-terms p {
+  font-size: 17px;
+  margin-bottom: 2rem;
+  line-height: 1.7rem;
+  color: #fff;
+}
+
+.card-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.card-btn button {
+  padding: 1rem 5rem;
+  border-radius: 1.5rem;
+  border: thin solid black;
+  background-color: black;
+  color: #efefef;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.card-price {
+  text-align: center;
+  font-size: 15px;
+  color: rgba(255,255,255,0.56);
+  line-height: 1.3rem;
+}
+
+.card-price span {
+  color: white;
+}
+
+@media (max-width: 800px) {
+  .header h1 {
+    width: 450px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .sliderContainer {
+    width: 450px;
   }
+
+  .small-bar {
+    width: 300px;
+  }
+
+  .uiCard {
+    width: 450px;
+  }
+}
+
+@media (max-width: 575px) {
+  .header h1 {
+    width: 330px;
+  }
+
+  .sliderContainer {
+    width: 330px;
+  }
+
+  .small-bar {
+    width: 300px;
+  }
+
+  .uiCard {
+    width: 282px;
+  }
+
+  .card-plan .top {
+    font-size: 20px;
+  }
+
+  .card-head {
+    font-size: 17px;
+  }
+
+  .card-btn button {
+    font-size: 17px;
+    padding: 1rem 2.5rem;
+  }
+  
 }
