@@ -4,7 +4,7 @@ class FreeContext extends Component {
     render() {
         return (
             <div className="free">
-                <h5>Get Premiun</h5>
+                <h5>Get Premium</h5>
                 <p>Only $119/month after offer period. Cancel anytime. 
                     <span>Terms and conditions</span> apply.
                 </p>

@@ -1,5 +1,5 @@
 export const premiumFamily = {
-    background: 'linear-gradient(to right, #8e0e00, #1f1c18)',
+    background: 'linear-gradient(to right, #00d2ff, #3a7bd5)',
     cardhead: 'Premium Family',
     top: 'Free',
     bottom: 'for 1 month',
@@ -18,7 +18,7 @@ export const premiumFamily = {
 }
 
 export const prePaidFamily = {
-    background: 'linear-gradient(to left, #11998e, #38ef7d)',
+    background: 'linear-gradient(to right, #e53935, #e35d5b)',
     cardhead: 'Prepaid  premium family',
     top: 'From $595',
     bottom: 'for 3 months',
@@ -30,7 +30,7 @@ export const prePaidFamily = {
 }
 
 export const premiumIndividual = {
-    background: 'linear-gradient(to right, #948e99, #2e1437)',
+    background: 'linear-gradient(to left, #11998e, #38ef7d)',
     cardhead: 'Premium Individual',
     top: 'Free',
     bottom: 'for 1 month',
@@ -44,7 +44,7 @@ export const premiumIndividual = {
 }
 
 export const premiumPrepaid = {
-    background: 'linear-gradient(to right, #f46b45, #eea849)',
+    background: ' linear-gradient(to right, #9d50bb, #6e48aa)',
     cardhead: 'Premium Prepaid',
     top: 'From $13',
     bottom: '/Day',
@@ -56,7 +56,7 @@ export const premiumPrepaid = {
 }
 
 export const  premiumStudent = {
-    background: 'linear-gradient(to right, #00d2ff, #3a7bd5)',
+    background: 'linear-gradient(to right, #f46b45, #eea849)',
     cardhead: 'Premium Student',
     top: 'Free',
     bottom: 'For 1 month',
@@ -70,7 +70,7 @@ export const  premiumStudent = {
 }
 
 export const premiumDuo = {
-    background: 'linear-gradient(to right, #e53935, #e35d5b)',
+    background: 'linear-gradient(to left bottom, #ff005f, #ff347c, #ff5097, #fd68b0, #f87dc5)',
     cardhead: 'Premium Duo',
     top: 'Free',
     bottom: 'for 1 month',
