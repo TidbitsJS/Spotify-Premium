@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Spotify-Premium/static/css/main.7e2910c6.chunk.css",
+    "main.js": "/Spotify-Premium/static/js/main.c25712d0.chunk.js",
+    "main.js.map": "/Spotify-Premium/static/js/main.c25712d0.chunk.js.map",
+    "runtime-main.js": "/Spotify-Premium/static/js/runtime-main.43362841.js",
+    "runtime-main.js.map": "/Spotify-Premium/static/js/runtime-main.43362841.js.map",
+    "static/css/2.1a8daee9.chunk.css": "/Spotify-Premium/static/css/2.1a8daee9.chunk.css",
+    "static/js/2.5d42232b.chunk.js": "/Spotify-Premium/static/js/2.5d42232b.chunk.js",
+    "static/js/2.5d42232b.chunk.js.map": "/Spotify-Premium/static/js/2.5d42232b.chunk.js.map",
+    "index.html": "/Spotify-Premium/index.html",
+    "precache-manifest.acdbf4590901bd8131b2b3eb8188fcb4.js": "/Spotify-Premium/precache-manifest.acdbf4590901bd8131b2b3eb8188fcb4.js",
+    "service-worker.js": "/Spotify-Premium/service-worker.js",
+    "static/css/2.1a8daee9.chunk.css.map": "/Spotify-Premium/static/css/2.1a8daee9.chunk.css.map",
+    "static/css/main.7e2910c6.chunk.css.map": "/Spotify-Premium/static/css/main.7e2910c6.chunk.css.map",
+    "static/js/2.5d42232b.chunk.js.LICENSE.txt": "/Spotify-Premium/static/js/2.5d42232b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.43362841.js",
+    "static/css/2.1a8daee9.chunk.css",
+    "static/js/2.5d42232b.chunk.js",
+    "static/css/main.7e2910c6.chunk.css",
+    "static/js/main.c25712d0.chunk.js"
+  ]
+}
