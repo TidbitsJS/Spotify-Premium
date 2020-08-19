@@ -1,4 +1,25 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Spotify Premium Page in ReactJS 
+
+### Demo https://tidbitsjs.github.io/Spotify-Premium/ 
+
+Last things last
+
+By the grace of the fire and the flames
+
+You're the face of the future
+
+The blood in my veins, oh-ooh
+
+The blood in my veins, oh-ooh oh-ooh
+
+& the blood in your veins pumps up to extreme while Spotify keeps you up on hook. We all are whirling in our own rhythm in this era of Music. Now-a-days everyone is on Spotify which sets it as one of the best top music players in the world. They have different types of service, like we have a website , android app with a different look or even an ios version. If you are an android user like me, you might have accidentally or purposely landed on Premium Tab/Page of Spotify. A beautiful UI, worthy of trying. That UI moved me up & I thought of trying something like that on my own. & here I am with my version of Spotify Premium Tab. You can test it on your device by following the Demo link provided at the start of the md file.
+
+### Key Points
+
+* Spotify Premium tab of android version
+* Developed in React
+* Use of CSS gradients
+* Responsive (Media Queries)
 
 ## Available Scripts
 
